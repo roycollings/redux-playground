@@ -1,0 +1,14 @@
+th {
+  text-align: left;
+}
+
+.result-id {
+  text-align: center;
+}
+
+.result-name {
+  text-align: left;
+  border: 20px;
+  color: grey;
+  padding-right: 20px;
+}

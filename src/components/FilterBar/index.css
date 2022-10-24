@@ -1,0 +1,28 @@
+.filter-bar {
+  border: 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1.7fr 0.3fr;
+  grid-gap: 10px;
+  background-color: white;
+}
+
+.filter {
+  border: 0;
+  width: 100%;
+}
+
+.filter > input {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: #e7eef5;
+  border: 0;
+  border-radius: 32px;
+  padding: 12px 20px;
+  margin: 0;
+  width: calc(100% - 40px);
+}
+.filter > input:focus {
+  outline: none;
+}
